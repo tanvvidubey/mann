@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: mann
+    ports:
+      - "5437:5432"   # host 5433 to avoid conflict with local Postgres on 5432
+    volumes:
+      - mann_pgdata:/var/lib/postgresql/data
+
+volumes:
+  mann_pgdata: {}
