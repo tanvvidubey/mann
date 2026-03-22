@@ -75,3 +75,6 @@ Thumbs.db
 
 # Optional: uncomment if you don't share editor settings
 # .vscode/
+
+.env.example
+backend/.env.example
