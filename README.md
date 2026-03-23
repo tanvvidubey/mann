@@ -1,4 +1,4 @@
-# Mann — AI-powered voice journal
+# Mann: AI-powered voice journal
 
 A private, encrypted daily journal where you speak or write in **Hindi**, **English**, or **Hinglish**. AI understands your mood and thoughts, and you can search your past entries by meaning.
 
